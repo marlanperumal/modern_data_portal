@@ -1,0 +1,16 @@
+GET http://localhost:8000
+
+###
+
+GET http://localhost:8000/items/foo
+
+###
+
+GET http://localhost:8000/items
+X-Token: fake-super-secret-token
+
+###
+
+GET http://localhost:8000/tasks/add?x=1&y=2
+
+
