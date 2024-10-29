@@ -16,6 +16,12 @@
             "problemMatcher": []
         },
         {
+            "label": "flower",
+            "type": "shell",
+            "command": "celery --app=backend.worker:worker flower",
+            "problemMatcher": []
+        },
+        {
             "type": "npm",
             "script": "start",
             "path": "frontend/",

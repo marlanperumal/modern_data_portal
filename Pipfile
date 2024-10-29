@@ -9,6 +9,7 @@ sqlalchemy = "*"
 psycopg2-binary = "*"
 alembic = "*"
 celery = {extras = ["redis"], version = "*"}
+flower = "*"
 
 [dev-packages]
 watchdog = "*"

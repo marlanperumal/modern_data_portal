@@ -10,7 +10,9 @@ GET http://localhost:8000/items
 X-Token: fake-super-secret-token
 
 ###
-
 GET http://localhost:8000/tasks/add?x=1&y=2
+
+###
+GET http://localhost:8000/tasks/results/790db973-50ca-4dd6-bd37-0ba491332ac3
 
 
